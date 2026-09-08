@@ -689,7 +689,7 @@
             <textarea id="mensaje" name="mensaje" placeholder="Un libro, un objeto, una idea suelta..."></textarea>
           </div>
           <button type="submit" class="btn">Reservar mi estante</button>
-          <p class="form-hint">Al enviar se abre tu correo con estos datos ya escritos, listo para mandarnos.</p>
+          <p class="form-hint">Al enviar se abre WhatsApp con estos datos ya escritos, listos para mandarnos.</p>
         </form>
       </div>
     </div>
@@ -734,20 +734,17 @@
     gridEl.appendChild(cell);
   }
 
-  // ---- Sign-up form -> mailto ----
+  // ---- Sign-up form -> WhatsApp ----
   document.getElementById('shelf-form').addEventListener('submit', function (e) {
     e.preventDefault();
-    const nombre = document.getElementById('nombre').value;
-    const email = document.getElementById('email').value;
+    const nombre = document.getElementById('nombre').value.trim();
+    const email = document.getElementById('email').value.trim();
     const plan = document.querySelector('input[name="plan"]:checked').value;
-    const mensaje = document.getElementById('mensaje').value;
+    const mensaje = document.getElementById('mensaje').value.trim();
 
-    const subject = encodeURIComponent('Quiero mi estante en Galería Íntima');
-    const body = encodeURIComponent(
-      `Nombre: ${nombre}\nCorreo: ${email}\nPlan elegido: ${plan}\n\n${mensaje ? 'Qué pensás poner en tu estante:\n' + mensaje : ''}`
-    );
-    // Update this address once the real inbox is set up.
-    window.location.href = `mailto:hola@galeriaintima.org?subject=${subject}&body=${body}`;
+    const body = `Quiero reservar mi estante en Galería Íntima.\n\nNombre: ${nombre}\nCorreo: ${email}\nPlan elegido: ${plan}${mensaje ? `\n\nQué pensás poner en tu estante:\n${mensaje}` : ''}`;
+    const whatsappUrl = `https://wa.me/59174189700?text=${encodeURIComponent(body)}`;
+    window.location.href = whatsappUrl;
   });
 </script>
 
