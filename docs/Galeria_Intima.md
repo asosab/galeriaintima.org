@@ -350,7 +350,16 @@ Todo este modelo está expresado en USD, pero los costos reales del local (alqui
 - El modelo financiero adjunto incluye un supuesto de planificación de **10% de ajuste anual** para los costos en bolivianos (redondeando hacia arriba la proyección del BCB para 2026), aplicado como sensibilidad al segundo año de la Proyección 24 meses: con ese ajuste, el costo fijo mensual pasaría de USD 753,63 a aproximadamente **USD 828,99**, reduciendo el superávit mensual a ocupación plena de USD 578,38 a cerca de **USD 503,01** (148 estantes, peor escenario, sin Miedos ni suscripciones).
 - Esto no cambia la conclusión sobre la brecha del año 1 (sección 7.6), pero sí refuerza la necesidad de no depender de un margen ajustado: cualquier salto adicional en la inflación local reduce aún más el colchón disponible.
 
-**Recomendación:** revisar el monto de la cuota (hoy USD 9/mes) en cada ciclo de renovación anual, comparándolo con la evolución real de los costos en bolivianos, en lugar de asumir que un monto fijo en dólares protege automáticamente el margen del proyecto. Esta es una decisión de gobernanza pendiente, a cargo de la coordinadora y el Directorio de la Asociación Civil (ver sección 15).
+**Un riesgo adicional: el cobro real ocurre en bolivianos, no en dólares.**
+Aunque este modelo está pensado en USD, el pago que hace cada dueño de estante ocurre en bolivianos, al tipo de cambio del momento. Lo ideal es convertir ese dinero a dólares apenas se recibe, para no quedar expuesto a una devaluación posterior. Pero hay un segundo riesgo, distinto al de los costos: qué pasa si, al llegar la renovación del año 2, el precio en bolivianos **no se actualiza** y se sigue cobrando el mismo monto en bolivianos del año 1.
+
+- Cuota fijada en bolivianos en el año 1 (USD 9 al tipo de cambio de referencia de Bs 12,60): **Bs 113,40 al mes** (Bs 1.360,80 al año).
+- Si en el año 2 el tipo de cambio se deprecia en la misma magnitud que el supuesto de inflación (10%), pasando a ≈ Bs 13,86, y se sigue cobrando esos mismos Bs 113,40 sin reajustarlos, el equivalente real baja a **≈ USD 8,18 al mes** por estante (no USD 9).
+- Con 148 estantes pagando ese monto ya devaluado, el ingreso mensual del año 2 cae a **≈ USD 1.210,91**, y el superávit mensual, ya con los costos inflactados, baja de USD 503,01 a **≈ USD 381,92**.
+
+Es decir: si la cuota se reajusta en dólares (repreciando el monto en bolivianos en cada renovación), el margen del año 2 baja pero se mantiene sólido (≈USD 503). Si en cambio se sigue cobrando el mismo número de bolivianos del año 1 sin repreciar, el golpe es doble (costos que suben, ingreso que en términos reales baja), y el margen se reduce a poco más de la mitad del original (≈USD 382).
+
+**Recomendación:** convertir a dólares cada cobro en bolivianos tan pronto como sea posible, para no quedar expuesto a un movimiento cambiario después del cobro. Y, en cada renovación anual, recalcular el monto en bolivianos a partir del objetivo en dólares (hoy USD 9/mes) al tipo de cambio vigente ese día, en lugar de repetir el mismo número de bolivianos del ciclo anterior. Esta es una decisión de gobernanza pendiente, a cargo de la coordinadora y el Directorio de la Asociación Civil (ver sección 15).
 
 *Fuentes consultadas: Banco Central de Bolivia (BCB), Instituto Nacional de Estadística (INE), medios locales especializados en tipo de cambio. Cifras sujetas a actualización.*
 
