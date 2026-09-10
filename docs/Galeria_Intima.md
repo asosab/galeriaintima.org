@@ -160,34 +160,35 @@ Esta configuración aprovecha bien los 5 m de frente y los 8 m de profundidad, r
 
 ### 7. Cálculo financiero real del local (actualizado a 150 estantes)
 
-**Costos mensuales base** (sin cambios frente al cálculo anterior: dependen del local y de la coordinación, no de la cantidad de estantes):
+**Costos mensuales base** (dependen del local y de la coordinación, no de la cantidad de estantes):
 
 | Concepto                          | Monto (USD) |
 |-----------------------------------|-------------|
 | Alquiler                          | 220         |
 | Electricidad                      | 40          |
 | Internet                          | 16          |
-| Agua                              | 10          |
+| Agua (servicio regular)           | 10          |
 | Publicidad                        | 10          |
 | Limpieza                          | 30          |
 | Mantenimiento del sitio web       | 15          |
 | Dominio (prorrateo renovación)    | 1,25        |
-| **Subtotal servicios + operativos** | **342,25** |
-| Margen de variabilidad (10 %)     | 34,23       |
+| Botellón de agua (dispensador Villa Santa, USD 1,5/semana × 52 semanas ÷ 12) | 6,50 |
+| **Subtotal servicios + operativos** | **348,75** |
+| Margen de variabilidad (10 %)     | 34,88       |
 | **Sueldo de la coordinadora**     | **370**     |
-| **Total a cubrir**                | **746,48**  |
+| **Total a cubrir**                | **753,63**  |
 
 **Apoyo al Estante de los Miedos:**
-Una o dos personas pueden apoyar este estante con una cuota de **USD 15 mensuales** cada una.
-- Con 1 apoyo: total neto a cubrir ≈ **USD 731,48**
-- Con 2 apoyos: total neto a cubrir ≈ **USD 716,48**
+Una o dos personas pueden apoyar este estante con una cuota de **USD 15 mensuales** cada una. Este apoyo existe como concepto, pero **no se cuenta en el cálculo del peor escenario** que sigue en esta sección (ver 7.6).
 
 Todo el superávit después de cubrir costos + sueldo + margen va a la **cuenta del espacio** (eventos, charlas, presentaciones, talleres, pagos especiales, mejoras, fondo de reserva). Este dinero se administra de forma transparente: la coordinadora tiene la última palabra sobre su uso, y rinde cuentas abiertamente a la comunidad de copropietarios de estante, que tiene derecho a saber cómo se invierte.
 
 #### 7.1. Cuota mínima de referencia (148 estantes pagando)
 
-Con 148 estantes pagando, el costo mínimo por estante (sin apoyos al Estante de los Miedos, peor escenario) es de **≈ USD 5,04**.
-La cuota fijada de USD 7 al mes queda cómodamente por encima de ese mínimo, generando superávit desde el primer estante ocupado por encima del punto de equilibrio.
+Con 148 estantes pagando, el costo mínimo por estante (sin apoyos al Estante de los Miedos, peor escenario) es de **≈ USD 5,09**.
+La cuota fijada de USD 9 al mes queda cómodamente por encima de ese mínimo, generando superávit desde el primer estante ocupado por encima del punto de equilibrio.
+
+
 
 #### 7.2. Cuota (148 estantes pagando, pago único anual)
 
@@ -195,11 +196,11 @@ Ya no existen dos modalidades de pago. Cada estante paga una sola cuota:
 
 | Concepto | Valor |
 |---|---|
-| Cuota mensual | USD 7 |
+| Cuota mensual | USD 9 |
 | Pago | Adelantado, en un solo pago de 12 meses |
-| Pago adelantado por estante | USD 84 |
-| Ingreso mensual a ocupación completa (148 estantes pagando, peor escenario sin Miedos ni suscripciones) | **USD 1.036** |
-| Superávit mensual a ocupación completa | **≈ USD 289,53** |
+| Pago adelantado por estante | USD 108 |
+| Ingreso mensual a ocupación completa (148 estantes pagando, peor escenario sin Miedos ni suscripciones) | **USD 1.332** |
+| Superávit mensual a ocupación completa | **≈ USD 578,38** |
 
 Simplificar a un solo precio facilita la administración (una sola fecha de renovación por estante, un solo monto que comunicar) y refuerza la lógica de comunidad: todos los dueños pagan lo mismo, sin niveles.
 
@@ -258,38 +259,37 @@ A diferencia del esquema anterior (que contemplaba abrir con una ocupación parc
 
 De los 150 estantes físicos, **2 se reservan para intercambio o donación** (por ejemplo, gestos de reciprocidad institucional) y no generan cuota. La base real de ingresos son **148 estantes**. Para este cálculo se trabaja además con el **peor escenario**: sin apoyos al Estante de los Miedos y sin ingreso por suscripción de lectores, aunque ambos sigan existiendo como conceptos del proyecto (ver 7.5 y 7.8).
 
-Hay un punto importante que corrige el cálculo anterior: como el pago de USD 84 por estante cubre **un año completo de uso** (no es capital libre), ese dinero recaudado tiene que alcanzar para dos cosas a la vez, no solo una:
+Hay un punto importante que corrige el cálculo anterior: como el pago de USD 108 por estante cubre **un año completo de uso** (no es capital libre), ese dinero recaudado tiene que alcanzar para dos cosas a la vez, no solo una:
 
 1. La inversión inicial (carpintería, mobiliario, equipamiento, puesta en marcha).
-2. Los costos operativos de los 12 meses de funcionamiento que ese mismo pago ya está comprando (alquiler, servicios, sueldo de la coordinadora, etc.), incluyendo el año completo de alquiler, no solo unos meses.
+2. Los costos operativos de los 12 meses de funcionamiento que ese mismo pago ya está comprando (alquiler, servicios, sueldo de la coordinadora, agua embotellada, etc.), incluyendo el año completo de alquiler, no solo unos meses.
 
 **Necesidad total de caja para el año 1:**
 
 | Concepto | Monto (USD) |
 |---|---|
-| Costos operativos de los primeros 12 meses (USD 746,48 × 12, incluye el año completo de alquiler, electricidad, internet, etc.) | 8.957,70 |
-| Inversión inicial / CAPEX (depósito, comisión, carpintería, mobiliario, equipamiento; ver detalle abajo) | 7.060,00 |
-| **Necesidad total de caja para el año 1** | **16.017,70** |
+| Costos operativos de los primeros 12 meses (USD 753,63 × 12, incluye el año completo de alquiler, electricidad, internet, agua embotellada, etc.) | 9.043,50 |
+| Inversión inicial / CAPEX (depósito, comisión, dispensador de agua, carpintería, mobiliario, equipamiento; ver detalle abajo) | 7.260,00 |
+| **Necesidad total de caja para el año 1** | **16.303,50** |
 
 **Ingreso del año 1, peor escenario (148 estantes pagando, sin Miedos ni suscripciones):**
 
 | Concepto | Monto (USD) |
 |---|---|
-| Cuotas de estante (148 × USD 84) | 12.432,00 |
-| **Ingreso total del año 1** | **12.432,00** |
+| Cuotas de estante (148 × USD 108) | 15.984,00 |
+| **Ingreso total del año 1** | **15.984,00** |
 
-**Superávit / Déficit del año 1:** 12.432,00 − 16.017,70 = **USD −3.585,70**
+**Superávit / Déficit del año 1:** 15.984,00 − 16.303,50 = **USD −319,50**
 
-**En el peor escenario, el proyecto no se autofinancia por completo en el año 1 solo con las cuotas de estante.** Falta cubrir aproximadamente **USD 3.586**. Esto no se resuelve subiendo la ocupación: la cantidad de estantes pagando necesaria para cubrir esa necesidad total por sí sola es de **191**, muy por encima de los 148 estantes disponibles para alquiler. Es una brecha estructural, no un problema de conversión de ventas.
+**Subir la cuota de USD 7 a USD 9 al mes cierra casi toda la brecha del año 1.** Con la cuota anterior, el hueco era de USD 3.586; con USD 9 al mes, se reduce a solo **USD 319,50**, un monto mucho más manejable. La cantidad de estantes pagando que haría falta para cerrar esta brecha por completo, solo con cuotas, es de **151**; el local tiene 148 estantes disponibles para alquiler, así que sigue faltando un margen pequeño, pero ya no es una brecha estructural grande como antes.
 
-**Cómo se puede cerrar esta brecha de ≈ USD 3.586:**
+**Cómo se puede cerrar el remanente de ≈ USD 320:**
 - Un aporte de capital propio o de un aliado (por ejemplo, apoyo en especie o económico de la alianza con el AECID) para cubrir la diferencia una sola vez.
-- Escalonar parte del CAPEX en el tiempo en lugar de pagarlo todo antes de abrir (por ejemplo, financiar iluminación, acabados o parte de la carpintería con el superávit operativo de los primeros meses, si el proveedor acepta plazos).
-- Buscar donaciones en especie para partidas puntuales (mobiliario, iluminación, acabados), reduciendo el CAPEX en efectivo necesario.
-- Sumar, una vez confirmados con datos reales, los apoyos al Estante de los Miedos y/o la suscripción de lectores (ver 7.5 y 7.8): entre ambos podrían aportar unos USD 480 al año, que reducirían la brecha pero no la cerrarían por sí solos.
-- Revisar el monto de la cuota mensual (hoy USD 7) si se prefiere que el propio modelo cierre esta brecha sin depender de aportes externos; esto es una decisión pendiente (ver sección 10).
+- Escalonar una parte pequeña del CAPEX en el tiempo (por ejemplo, los acabados o el imprevisto) con el superávit operativo de los primeros meses.
+- Sumar, una vez confirmados con datos reales, los apoyos al Estante de los Miedos y/o la suscripción de lectores (ver 7.5 y 7.8): entre ambos podrían aportar unos USD 480 al año, más que suficiente para cerrar este remanente si se confirman.
+- Aceptar el pequeño déficit y cubrirlo con el superávit acumulado de los primeros dos meses de operación, ya que a partir del año 2 el margen es amplio (ver más abajo).
 
-Vale aclarar que este hueco es específico del año 1 (el momento en que hay que pagar la inversión inicial *y* empezar a operar al mismo tiempo). A partir del año 2, sin un CAPEX grande nuevo, el mismo ingreso de cuotas ya alcanza cómodamente para cubrir la operación con superávit (ver 7.2 y la Proyección 24 meses del modelo financiero adjunto), salvo el efecto de la inflación local (ver 7.9).
+Vale aclarar que este hueco es específico del año 1 (el momento en que hay que pagar la inversión inicial *y* empezar a operar al mismo tiempo). A partir del año 2, sin un CAPEX grande nuevo, el mismo ingreso de cuotas ya alcanza cómodamente para cubrir la operación con un superávit amplio (ver 7.2 y la Proyección 24 meses del modelo financiero adjunto), salvo el efecto de la inflación local (ver 7.9).
 
 **Estimación de inversión inicial (CAPEX)** (a afinar con la arquitecta y el carpintero):
 
@@ -297,6 +297,7 @@ Vale aclarar que este hueco es específico del año 1 (el momento en que hay que
 |---------------------------------------|-------------------|
 | Depósito de garantía (1 mes de alquiler) | 220 |
 | Comisión de inmobiliaria (1 mes de alquiler) | 220 |
+| Dispensador de agua (Villa Santa)     | 200               |
 | Carpintería y estantes (150 módulos, 35 × 50 × 35 cm) | 2.920 |
 | Mesas y sillas plegables              | 600               |
 | Iluminación                           | 700               |
@@ -304,8 +305,10 @@ Vale aclarar que este hueco es específico del año 1 (el momento en que hay que
 | Acabados, pintura y señalética        | 400               |
 | Desarrollo del sitio web + tour virtual + sistemas de registro | 800 |
 | Imprevistos y otros                   | 300               |
-| **Total estimado**                    | **≈ 7.060**       |
+| **Total estimado**                    | **≈ 7.260**       |
 | Dominio galeriaintima.org (primer año, ya pagado, no suma al total) | 8,18 |
+
+*Nota sobre el agua:* el dispensador es una compra única (CAPEX). El costo recurrente del botellón semanal (USD 1,5/semana) se prorratea como gasto mensual dentro de los costos operativos (ver tabla de la sección 7), no aquí.
 
 *Nota sobre el alquiler inicial:* aquí solo se cuentan el depósito de garantía y la comisión de la inmobiliaria (2 meses de alquiler), porque el primer mes de alquiler "adelantado" ya está cubierto dentro de los 12 meses de operación de la tabla de arriba. Contarlo dos veces habría inflado artificialmente el CAPEX en USD 220.
 
@@ -313,7 +316,7 @@ Vale aclarar que este hueco es específico del año 1 (el momento en que hay que
 
 #### 7.7. Modalidad de pago
 
-- **Pago único: USD 7 / mes, adelantado en un solo pago de 12 meses (USD 84).**
+- **Pago único: USD 9 / mes, adelantado en un solo pago de 12 meses (USD 108).**
 - **Solo se cobra la cuota del estante.** No se suma derecho de uso ni membresía aparte para los dueños de estante: la cuota ya cubre alquiler, servicios y coordinación, e incluye la suscripción de lector sin costo extra (ver 7.8).
 - **Un estante por persona.** Protege la diversidad de miradas (150 personas distintas) y deja lugar en la lista de espera.
 - Cada estante se reserva a nombre de su dueño por 12 meses de uso exclusivo. Para renovarlo, el pago debe hacerse con una semana de anticipación. Quien no renueva libera su lugar y pasa a la primera persona en lista de espera. No hay tope máximo de permanencia: la rotación queda en manos del interés real de cada quien.
@@ -343,11 +346,11 @@ Todo este modelo está expresado en USD, pero los costos reales del local (alqui
 - La inflación en Bolivia cerró 2025 en 20,4%, uno de los niveles más altos en décadas, por la escasez de dólares. En 2026 se desaceleró: acumulaba 3,01% entre enero y agosto, con una variación interanual de 5,02% en agosto; el BCB proyectaba un cierre de año cercano a 9,22%.
 
 **Qué significa esto para Galería Íntima:**
-- Los USD 84 por estante son un monto fijo, cobrado una vez al año. Si los costos en bolivianos suben durante ese año (por inflación local), el margen operativo se achica sin que la cuota se ajuste a mitad de camino.
-- El modelo financiero adjunto incluye un supuesto de planificación de **10% de ajuste anual** para los costos en bolivianos (redondeando hacia arriba la proyección del BCB para 2026), aplicado como sensibilidad al segundo año de la Proyección 24 meses: con ese ajuste, el costo fijo mensual pasaría de USD 746,48 a aproximadamente **USD 821,12**, reduciendo el superávit mensual a ocupación plena de USD 289,53 a cerca de **USD 214,88** (148 estantes, peor escenario, sin Miedos ni suscripciones).
+- Los USD 108 por estante son un monto fijo, cobrado una vez al año. Si los costos en bolivianos suben durante ese año (por inflación local), el margen operativo se achica sin que la cuota se ajuste a mitad de camino.
+- El modelo financiero adjunto incluye un supuesto de planificación de **10% de ajuste anual** para los costos en bolivianos (redondeando hacia arriba la proyección del BCB para 2026), aplicado como sensibilidad al segundo año de la Proyección 24 meses: con ese ajuste, el costo fijo mensual pasaría de USD 753,63 a aproximadamente **USD 828,99**, reduciendo el superávit mensual a ocupación plena de USD 578,38 a cerca de **USD 503,01** (148 estantes, peor escenario, sin Miedos ni suscripciones).
 - Esto no cambia la conclusión sobre la brecha del año 1 (sección 7.6), pero sí refuerza la necesidad de no depender de un margen ajustado: cualquier salto adicional en la inflación local reduce aún más el colchón disponible.
 
-**Recomendación:** revisar el monto de la cuota (hoy USD 7/mes) en cada ciclo de renovación anual, comparándolo con la evolución real de los costos en bolivianos, en lugar de asumir que un monto fijo en dólares protege automáticamente el margen del proyecto. Esta es una decisión de gobernanza pendiente, a cargo de la coordinadora y el Directorio de la Asociación Civil (ver sección 15).
+**Recomendación:** revisar el monto de la cuota (hoy USD 9/mes) en cada ciclo de renovación anual, comparándolo con la evolución real de los costos en bolivianos, en lugar de asumir que un monto fijo en dólares protege automáticamente el margen del proyecto. Esta es una decisión de gobernanza pendiente, a cargo de la coordinadora y el Directorio de la Asociación Civil (ver sección 15).
 
 *Fuentes consultadas: Banco Central de Bolivia (BCB), Instituto Nacional de Estadística (INE), medios locales especializados en tipo de cambio. Cifras sujetas a actualización.*
 
@@ -356,10 +359,10 @@ Todo este modelo está expresado en USD, pero los costos reales del local (alqui
 1. **Definir el tamaño del proyecto**
    - Local: 5 × 8 m (40 m²) frente al AECID.
    - Número de estantes: **150**.
-   - Costos a cubrir: servicios + limpieza + mantenimiento web + dominio + publicidad + 10 % variabilidad + sueldo de la coordinadora (USD 370) ≈ **USD 746 / mes** (menos apoyos del Estante de los Miedos).
+   - Costos a cubrir: servicios + limpieza + mantenimiento web + dominio + publicidad + agua embotellada + 10 % variabilidad + sueldo de la coordinadora (USD 370) ≈ **USD 754 / mes** (menos apoyos del Estante de los Miedos).
 
 2. **Definir la cuota**
-   - Cuota única: **USD 7 por estante / mes**, pagada en un solo adelanto anual de USD 84.
+   - Cuota única: **USD 9 por estante / mes**, pagada en un solo adelanto anual de USD 108.
    - El superávit va a la **cuenta del espacio** para eventos, charlas, presentaciones y actividades especiales.
    - La suscripción de lector (USD 10 / año, provisional) es un ingreso aparte, para quien no tiene estante y quiere llevarse libros a casa.
 
@@ -454,7 +457,7 @@ Quien adquiere un estante adquiere un lugar donde mostrarse y encontrarse.
 El local está frente al AECID, mide 40 m², tiene baño privado y un pequeño depósito.
 Se sostiene con la cuota de 148 dueños de estante y con el trabajo de la coordinadora y los voluntarios.
 
-**La cuota es de USD 7 al mes**, pagada por adelantado en un solo pago anual (USD 84).
+**La cuota es de USD 9 al mes**, pagada por adelantado en un solo pago anual (USD 108).
 
 Cualquier persona puede entrar a leer libremente, sin costo. Con una suscripción anual de lector, se puede llevar libros a casa por hasta dos semanas; como dueño de estante, esa suscripción viene incluida.
 
@@ -541,7 +544,7 @@ La estrategia se organiza en tres capas que avanzan en paralelo.
 - Publicidad pagada (USD 10 mensuales) en redes y canales locales.
 - Se mantiene el criterio: cada estante lleva nombre y apellido.
 
-Meta de esta capa: cubrir el **100% de los 148 estantes disponibles para alquiler** (más 2 reservados para intercambio o donación), cada uno con su pago anual adelantado (USD 84), antes de firmar el contrato del local, encargar la carpintería y comprar el equipamiento.
+Meta de esta capa: cubrir el **100% de los 148 estantes disponibles para alquiler** (más 2 reservados para intercambio o donación), cada uno con su pago anual adelantado (USD 108), antes de firmar el contrato del local, encargar la carpintería y comprar el equipamiento.
 
 #### Capa 3. Operación mínima para abrir
 
@@ -654,4 +657,4 @@ La formalización como Asociación Civil se realiza apenas exista un núcleo est
 
 *Documento base para el desarrollo conceptual de Galería Íntima en el centro de Santa Cruz de la Sierra.*
 *Inspirado en modelos de bibliotecas comunitarias de estantes compartidos (ver punto 2, "Origen del modelo").*
-*Actualizado con: 150 estantes físicos (35 × 50 × 35 cm cada uno), de los cuales 148 se alquilan y generan cuota y 2 se reservan para intercambio o donación; cuota única USD 7/mes con pago anual adelantado (USD 84); carpintería estimada en USD 2.920 según cotización real de dos muebles libreros de 60 estantes por USD 2.336 (triangulada a 150 estantes físicos); cálculo de caja del año 1 en el peor escenario (sin apoyos al Estante de los Miedos ni suscripción de lectores, y con el alquiler inicial corregido para no duplicar el primer mes ya contado en los 12 meses de operación), con una brecha identificada de ≈ USD 3.586; nueva sección de riesgo cambiario e inflación en Bolivia, con un supuesto de ajuste anual del 10% para costos en bolivianos; sistema de préstamo de libros con suscripción anual de lector (USD 10/año, monto provisional, excluido de los cálculos financieros) y plazo máximo de dos semanas; dominio galeriaintima.org (USD 8,18 primer año pagado; renovación USD 15/año); decisiones sobre cuota/membresía, rotación anual, un estante por persona, masa crítica, planilla y archivo de miedos, formalización de roles.*
+*Actualizado con: 150 estantes físicos (35 × 50 × 35 cm cada uno), de los cuales 148 se alquilan y generan cuota y 2 se reservan para intercambio o donación; cuota única USD 9/mes con pago anual adelantado (USD 108); carpintería estimada en USD 2.920 según cotización real de dos muebles libreros de 60 estantes por USD 2.336 (triangulada a 150 estantes físicos); dispensador de agua Villa Santa (USD 200, compra única) y botellón semanal (USD 1,5/semana) incorporados a la inversión inicial y a los costos fijos mensuales; cálculo de caja del año 1 en el peor escenario (sin apoyos al Estante de los Miedos ni suscripción de lectores, y con el alquiler inicial corregido para no duplicar el primer mes ya contado en los 12 meses de operación), con una brecha reducida a ≈ USD 320 tras subir la cuota de USD 7 a USD 9; sección de riesgo cambiario e inflación en Bolivia, con un supuesto de ajuste anual del 10% para costos en bolivianos; sistema de préstamo de libros con suscripción anual de lector (USD 10/año, monto provisional, excluido de los cálculos financieros) y plazo máximo de dos semanas; dominio galeriaintima.org (USD 8,18 primer año pagado; renovación USD 15/año); decisiones sobre cuota/membresía, rotación anual, un estante por persona, masa crítica, planilla y archivo de miedos, formalización de roles.*
