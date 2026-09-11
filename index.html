@@ -811,7 +811,7 @@
   // Por defecto se cache-bustea con timestamp (ms) para que al editar
   // solo copropietarios.js el cliente siempre reciba la versión nueva.
   // Para forzar caché estable (p. ej. en producción):
-  //   <script>window.noCachearCoprop = true;
+  //   <script>window.noCachearCoprop = true;<\/script>
   // justo antes de este bloque.
   (function () {
     var noCache = (typeof window.noCachearCoprop !== 'undefined')
