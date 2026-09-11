@@ -90,9 +90,9 @@
     letter-spacing: 0.01em;
     text-decoration: none;
   }
-  nav{ display: flex; gap: 1.75rem; }
+  nav{ display: flex; gap: 1.5rem; flex-wrap: wrap; }
   nav a{
-    font-size: 0.92rem;
+    font-size: 0.9rem;
     text-decoration: none;
     color: var(--text-light);
     opacity: 0.82;
@@ -101,7 +101,7 @@
     transition: opacity .2s ease, border-color .2s ease;
   }
   nav a:hover{ opacity: 1; border-color: var(--brass-soft); }
-  @media (max-width: 680px){
+  @media (max-width: 720px){
     nav{ display: none; }
   }
 
@@ -171,6 +171,7 @@
     color: var(--ink);
     background: var(--brass-soft);
     transition: background .2s ease, transform .15s ease;
+    cursor: pointer;
   }
   .btn:hover{ background: var(--brass); }
   .btn:active{ transform: translateY(1px); }
@@ -180,6 +181,12 @@
     border-color: var(--line-on-dark);
   }
   .btn-ghost:hover{ background: rgba(241,232,214,0.06); }
+  .btn-on-paper{
+    background: var(--stamp);
+    border-color: var(--stamp);
+    color: var(--paper);
+  }
+  .btn-on-paper:hover{ background: #7a2e24; border-color: #7a2e24; }
   .link-quiet{
     font-size: 0.95rem;
     text-decoration: underline;
@@ -204,7 +211,7 @@
 
   h2{
     font-size: clamp(1.9rem, 2.4vw + 1rem, 2.6rem);
-    max-width: 18ch;
+    max-width: 20ch;
     line-height: 1.15;
   }
 
@@ -215,6 +222,26 @@
   }
   .on-ink-soft .lede, .hero-sub{ color: rgba(241,232,214,0.86); }
   .on-paper .lede, .on-paper-deep .lede{ color: rgba(36,28,18,0.78); }
+
+  /* ---------- CTA band (after tablero / cuota) ---------- */
+  .cta-band{
+    margin-top: 2.6rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--line-on-light);
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .cta-band p{
+    font-size: 1.02rem;
+    max-width: 42ch;
+    color: rgba(36,28,18,0.8);
+  }
+  .on-ink-soft .cta-band{
+    border-top-color: var(--line-on-dark);
+  }
+  .on-ink-soft .cta-band p{ color: rgba(241,232,214,0.86); }
 
   /* ---------- Founders board ---------- */
   .board-status{
@@ -379,11 +406,35 @@
     transform: rotate(-6deg);
     background: var(--paper);
   }
+  .price-value{
+    margin-top: 2rem;
+    max-width: 58ch;
+    font-size: 1.05rem;
+    color: rgba(36,28,18,0.88);
+  }
   .price-note{
-    margin-top: 2.2rem;
-    max-width: 60ch;
-    font-size: 0.98rem;
-    color: rgba(36,28,18,0.75);
+    margin-top: 1.2rem;
+    max-width: 58ch;
+    font-size: 0.92rem;
+    color: rgba(36,28,18,0.65);
+  }
+  details.price-more{
+    margin-top: 1.4rem;
+    max-width: 58ch;
+  }
+  details.price-more summary{
+    cursor: pointer;
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+    color: var(--stamp);
+    list-style: none;
+  }
+  details.price-more summary::-webkit-details-marker{ display: none; }
+  details.price-more[open] summary{ margin-bottom: 0.7rem; }
+  details.price-more p{
+    font-size: 0.92rem;
+    color: rgba(36,28,18,0.7);
+    margin-top: 0.5rem;
   }
 
   /* ---------- Fears shelf ---------- */
@@ -449,15 +500,30 @@
   }
   textarea{ resize: vertical; min-height: 70px; }
   input::placeholder, textarea::placeholder{ color: rgba(241,232,214,0.4); }
-  .plan-options{ display: flex; gap: 1.6rem; flex-wrap: wrap; }
+  .plan-options{ display: flex; flex-direction: column; gap: 0.7rem; }
   .plan-option{
     display: flex;
     align-items: center;
     gap: 0.5rem;
     font-size: 0.95rem;
   }
+  .form-value-box{
+    margin-bottom: 0.4rem;
+    padding: 1.1rem 1.2rem;
+    border: 1px solid var(--line-on-dark);
+    font-size: 0.92rem;
+    color: rgba(241,232,214,0.88);
+    line-height: 1.5;
+  }
+  .form-value-box strong{ color: var(--brass-soft); }
+  .form-urgency{
+    margin-top: 0.2rem;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--brass-soft);
+  }
   .form-hint{
-    margin-top: 1rem;
+    margin-top: 0.4rem;
     font-size: 0.85rem;
     color: rgba(241,232,214,0.55);
   }
@@ -487,11 +553,11 @@
   <div class="wrap header-row">
     <a href="#top" class="wordmark">Galería Íntima</a>
     <nav>
-      <a href="#idea">La idea</a>
-      <a href="#origen">El origen</a>
-      <a href="#funciona">Cómo funciona</a>
+      <a href="#tablero">Tablero</a>
       <a href="#cuota">La cuota</a>
-      <a href="#sumate">Sumate</a>
+      <a href="#funciona">Cómo funciona</a>
+      <a href="#idea">La idea</a>
+      <a href="#sumate">Reservar</a>
     </nav>
   </div>
 </header>
@@ -504,102 +570,29 @@
       <div class="catalog-mark">ESTANTE N.º (por asignar) / 150</div>
       <div>
         <h1>Cada estante es una ventana a un mundo interior</h1>
-        <p class="hero-sub">Galería Íntima recién empieza. En el centro de Santa Cruz de la Sierra 148 personas mostrarán su mundo en un estante propio: libros, objetos, notas escritas a mano, cada uno decidirá qué libros compartirá y cómo mostrarse para que la ciudad los lea. Cualquiera puede entrar a leer esos libros, sin costo.</p>
-        <p class="hero-note">Es un proyecto recién nacido; hay una idea, una arquitecta y una lista que empieza a llenarse de nombres.</p>
+        <p class="hero-sub">Galería Íntima es un espacio en el centro de Santa Cruz de la Sierra donde 148 personas muestran su mundo en un estante propio: libros, objetos, notas escritas a mano. Cualquiera puede entrar a leer, sin costo.</p>
+        <p class="hero-note">La comunidad se arma ahora. El local se firma cuando los 148 estantes tengan dueño.</p>
         <div class="cta-row">
           <a class="btn" href="#sumate">Quiero mi estante</a>
-          <a class="link-quiet" href="#funciona">Ver cómo funciona</a>
+          <a class="link-quiet" href="#tablero">Ver el tablero</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== FOUNDERS BOARD ===== -->
+  <!-- ===== TABLERO ===== -->
   <section class="on-paper-deep" id="tablero">
     <div class="wrap">
       <span class="eyebrow-line">El tablero</span>
-      <h2>Firmamos el contrato del local recién cuando los 150 estantes tengan dueño.</h2>
-      <p class="lede">Galería Íntima va a tener 150 estantes. 148 se completan con quienes pagan su cuota, uno es el Estante de los Miedos y el último se dona. Los 150 cuentan igual: primero se completa la comunidad entera, después se construye el espacio.</p>
+      <h2>Firmamos el contrato del local cuando los 148 estantes tengan dueño.</h2>
+      <p class="lede">Galería Íntima tendrá 150 estantes físicos. 148 se completan con quienes pagan su cuota anual. Uno es el Estante de los Miedos. Otro se reserva para intercambio o donación. Primero se completa la comunidad; después se construye el espacio.</p>
       <p class="board-status" id="board-status"></p>
       <div class="grid-shelves" id="shelf-grid" aria-hidden="true"></div>
       <p class="grid-caption" id="grid-caption"></p>
-    </div>
-  </section>
 
-  <!-- ===== LA IDEA ===== -->
-  <section class="on-ink-soft" id="idea">
-    <div class="wrap">
-      <span class="eyebrow-line">La idea</span>
-      <h2>Cada estante es un autorretrato.</h2>
-      <div class="cols-2">
-        <div class="body-copy lede">
-          <p>Tu estante mide 35 × 50 × 35 cm. Tiene que haber al menos un par de libros: son el corazón. Junto a ellos va lo que quieras sumar —un objeto que te acompaña hace años, una nota escrita a mano, una foto—. Lo cambiás cuando quieras. Puede llevar el nombre de una persona o de una institución pública o privada. Cada estante tiene su propia ficha: quien se sienta a leer puede dejar una marca de que estuvo ahí.</p>
-          <p>Galería Íntima es una biblioteca comunitaria autogestionada. Los libros no los eligió un algoritmo ni una sola curadora: los eligió cada dueño de estante. Esa suma de criterios personales arma una colección enorme y variada a la que toda la ciudad accede sin costo. Cualquiera puede entrar, sentarse y leer gratis. Quien quiere llevarse libros a casa se hace suscriptor anual; los dueños de estante la tienen incluida.</p>
-          <p>Es un lugar quieto en medio de una ciudad ruidosa: un oasis sostenido por la propia comunidad que lo habita. Y es también centro de arte: exposiciones de vecinos, talleres, cine-foro y performances permanentes como el Estante de los Miedos.</p>
-        </div>
-        <div class="card tilt-r">
-          <p class="card-quote">"Mostramos ciento cincuenta maneras de ver el mundo, y con ellas las ganas de toda una ciudad de leer, mirar y encontrarse."
-            <cite>(la idea que guía este proyecto)</cite>
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== ORIGEN ===== -->
-  <section class="on-paper" id="origen">
-    <div class="wrap">
-      <span class="eyebrow-line">El origen</span>
-      <h2>Galería Íntima está inspirada en las bibliotecas comunitarias de Japón y Singapur.</h2>
-      <p class="lede">De ellas heredamos la idea central: los estantes se comparten, y el espacio se cuida entre quienes lo habitan.</p>
-      <div class="origin-grid">
-        <div class="card origin-card tilt-l">
-          <h3>Yaizu, Japón (desde 2020)</h3>
-          <p>Minna no Toshokan Sankaku alquila sus estantes y los cuida con voluntarios. Desde esa primera biblioteca nacieron unas cincuenta más con la misma estructura, repartidas por todo Japón.</p>
-        </div>
-        <div class="card origin-card tilt-r">
-          <h3>Singapur, Casual Poet Library</h3>
-          <p>Rebecca Toh abrió 180 estantes en 42 metros cuadrados. La respuesta de la comunidad fue inmediata, y doscientas personas se ofrecieron como bibliotecarias voluntarias por decisión propia.</p>
-        </div>
-      </div>
-      <p class="origin-close">Entre todos se reparten los costos, y así el espacio se sostiene desde adentro. Eso es lo que estamos por construir acá.</p>
-    </div>
-  </section>
-
-  <!-- ===== COMO FUNCIONA ===== -->
-  <section class="on-ink-soft" id="funciona">
-    <div class="wrap">
-      <span class="eyebrow-line">Cómo funciona</span>
-      <h2>Cuatro pasos, en este orden.</h2>
-      <div class="steps">
-        <div class="step">
-          <span class="step-num">01</span>
-          <div>
-            <h3>Obtenés tu estante</h3>
-            <p>Un módulo de 35 × 50 × 35 cm que pasa a ser tuyo. La arquitecta, Siria Useche, decide qué lugar te toca dentro del espacio: piensa la ubicación de cada estante en conjunto con los demás, con una mirada sobre el recorrido y el público. Ahí van tus libros, tus objetos, tus notas, y los cambiás cuando quieras. Podés tener más de un estante si cada uno tiene su propio sentido (uno de literatura fantástica, otro de libros de arquitectura, por ejemplo) y el compromiso de mantenerlos siempre con contenido, sin dejarlos vacíos.</p>
-          </div>
-        </div>
-        <div class="step">
-          <span class="step-num">02</span>
-          <div>
-            <h3>Ponés el nombre</h3>
-            <p>Cada estante lleva un nombre visible: el de una persona o el de una institución pública o privada. El estante de los miedos es la única excepción.</p>
-          </div>
-        </div>
-        <div class="step">
-          <span class="step-num">03</span>
-          <div>
-            <h3>Formás parte antes de que exista</h3>
-            <p>Tu cuota ayuda a pagar el local por adelantado, antes de que el espacio siquiera abra. La comunidad llega antes que las llaves.</p>
-          </div>
-        </div>
-        <div class="step">
-          <span class="step-num">04</span>
-          <div>
-            <h3>Participás cuando querés</h3>
-            <p>La coordinadora y los turnos de voluntarios son quienes abren, cuidan y cierran el espacio todos los días. Vos podés sumarte cuando quieras, sin obligación: presentar tu estante, ayudar a alguien que visita, o simplemente estar. Como voluntario, la suscripción para llevarte libros a casa no tiene costo.</p>
-          </div>
-        </div>
+      <div class="cta-band">
+        <p>Cada estante que se reserva acerca el día de apertura. El tuyo puede ser el siguiente.</p>
+        <a class="btn btn-on-paper" href="#sumate">Reservar mi estante</a>
       </div>
     </div>
   </section>
@@ -615,28 +608,116 @@
           <span class="stamp-badge">estante</span>
           <h3>Dueño de estante</h3>
           <p class="price-amount">USD 9<span> / mes</span></p>
-          <p class="price-detail">Un solo pago adelantado de 12 meses: USD 108 en total. Incluye tu estante, tu lugar en la comunidad de copropietarios y el beneficio de suscriptor sin costo aparte.</p>
+          <p class="price-detail">Un solo pago adelantado de 12 meses: <strong>USD 108</strong>. Incluye tu estante exclusivo, tu lugar en la comunidad de copropietarios y la suscripción de lector sin costo aparte.</p>
         </div>
         <div class="card price-card tilt-r">
           <span class="stamp-badge">suscriptor</span>
           <h3>Suscriptor</h3>
           <p class="price-amount">USD 10<span> / año</span></p>
-          <p class="price-detail">Monto provisional. Para quien todavía no tiene estante pero quiere llevarse libros a casa hasta dos semanas por vez. Leer en la galería siempre es gratis: se puede ser lector en el lugar sin necesidad de pagar ni de suscribirse.</p>
+          <p class="price-detail">Monto provisional. Para quien aún no tiene estante y quiere llevarse libros a casa (hasta dos semanas por vez). Leer en la galería siempre es gratis.</p>
         </div>
       </div>
-      <p class="price-note">Tu cuota de estante cubre el alquiler, los servicios básicos y el sueldo de quien coordina el espacio día a día. Todo lo que queda arriba de eso va a la cuenta del espacio y se usa de forma transparente, con rendición de cuentas abierta a toda la comunidad de copropietarios.</p>
-      <p class="price-note">Tu cuota reserva el estante a nombre de la persona o institución, en exclusiva, por 12 meses. Para renovarlo avisá con una semana de anticipación: hay lista de espera de gente que también quiere un lugar.</p>
-      <p class="price-note">El precio se fija en dólares y se cobra en bolivianos al tipo de cambio del día. Así el proyecto sostiene su valor real frente a la inflación local, en vez de perder poder de compra cada año.</p>
-      <p class="price-note">Lo que recibís con tu cuota es concreto: un estante, una suscripción, un lugar en la comunidad. Pero detrás de ese pago también hay un gracias, de nuestra parte y de toda la comunidad que va a disfrutar el espacio: cada estante y cada suscripción hacen posible que este lugar exista.</p>
+
+      <p class="price-value">Con tu cuota recibís algo concreto: un estante, una suscripción y un lugar en la comunidad. Detrás de ese pago también hay un gracias —de nuestra parte y de toda la ciudad que va a disfrutar el espacio—: cada estante hace posible que este lugar exista.</p>
+      <p class="price-note">Tu cuota cubre alquiler, servicios y la coordinación diaria. Todo el superávit va a la cuenta del espacio (eventos, charlas, mejoras) con rendición abierta a los copropietarios.</p>
+
+      <details class="price-more">
+        <summary>Detalles de pago y renovación</summary>
+        <p>El precio se fija en dólares y se cobra en bolivianos al tipo de cambio del día. Así el proyecto sostiene su valor real frente a la inflación local.</p>
+        <p>Tu cuota reserva el estante a nombre de la persona o institución por 12 meses. Para renovarlo avisá con una semana de anticipación: hay lista de espera de gente que también quiere un lugar. Se permiten múltiples estantes si cada uno tiene sentido propio y se mantiene con contenido.</p>
+      </details>
+
+      <div class="cta-band">
+        <p>USD 108 al año. Un estante con tu nombre en el centro de Santa Cruz.</p>
+        <a class="btn btn-on-paper" href="#sumate">Reservar mi estante</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMO FUNCIONA ===== -->
+  <section class="on-ink-soft" id="funciona">
+    <div class="wrap">
+      <span class="eyebrow-line">Cómo funciona</span>
+      <h2>Cuatro pasos, en este orden.</h2>
+      <div class="steps">
+        <div class="step">
+          <span class="step-num">01</span>
+          <div>
+            <h3>Obtenés tu estante</h3>
+            <p>Un módulo de 35 × 50 × 35 cm. La arquitecta define su lugar dentro del recorrido. Ahí van tus libros (al menos un par), objetos y notas; los cambiás cuando quieras. Podés tener más de un estante si cada uno tiene sentido propio y se mantiene con contenido.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step-num">02</span>
+          <div>
+            <h3>Ponés el nombre</h3>
+            <p>Cada estante lleva un nombre visible: el de una persona o el de una institución pública o privada. El Estante de los Miedos es la única excepción.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step-num">03</span>
+          <div>
+            <h3>Formás parte antes de que exista</h3>
+            <p>Tu cuota ayuda a pagar el local por adelantado. La comunidad llega antes que las llaves.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step-num">04</span>
+          <div>
+            <h3>Participás cuando querés</h3>
+            <p>La coordinadora y los turnos de voluntarios abren, cuidan y cierran el espacio. Vos podés sumarte cuando quieras, sin obligación. Como voluntario, la suscripción para llevarte libros a casa no tiene costo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LA IDEA ===== -->
+  <section class="on-ink-soft" id="idea" style="padding-top: 0;">
+    <div class="wrap">
+      <span class="eyebrow-line">La idea</span>
+      <h2>Cada estante es un autorretrato.</h2>
+      <div class="cols-2">
+        <div class="body-copy lede">
+          <p>Tu estante mide 35 × 50 × 35 cm. Tiene que haber al menos un par de libros: son el corazón. Junto a ellos va lo que quieras sumar —un objeto que te acompaña hace años, una nota escrita a mano, una foto—. Lo cambiás cuando quieras. Cada estante tiene su propia ficha: quien se sienta a leer puede dejar una marca de que estuvo ahí.</p>
+          <p>Galería Íntima es una biblioteca comunitaria autogestionada. Los libros no los eligió un algoritmo ni una sola curadora: los eligió cada dueño de estante. Esa suma de criterios personales arma una colección a la que toda la ciudad accede sin costo. Cualquiera puede entrar, sentarse y leer gratis. Quien quiere llevarse libros a casa se hace suscriptor anual; los dueños de estante la tienen incluida.</p>
+          <p>Es un lugar quieto en medio de una ciudad ruidosa: un oasis sostenido por la propia comunidad. Y es también centro de arte: exposiciones, talleres, encuentros y performances permanentes como el Estante de los Miedos.</p>
+        </div>
+        <div class="card tilt-r">
+          <p class="card-quote">"Mostramos ciento cincuenta maneras de ver el mundo, y con ellas las ganas de toda una ciudad de leer, mirar y encontrarse."
+            <cite>(la idea que guía este proyecto)</cite>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ORIGEN ===== -->
+  <section class="on-paper" id="origen">
+    <div class="wrap">
+      <span class="eyebrow-line">El origen</span>
+      <h2>Inspirada en las bibliotecas comunitarias de Japón y Singapur.</h2>
+      <p class="lede">De ellas heredamos la idea central: los estantes se comparten, y el espacio se cuida entre quienes lo habitan.</p>
+      <div class="origin-grid">
+        <div class="card origin-card tilt-l">
+          <h3>Yaizu, Japón (desde 2020)</h3>
+          <p>Minna no Toshokan Sankaku alquila sus estantes y los cuida con voluntarios. Desde esa primera biblioteca nacieron unas cincuenta más con la misma estructura, repartidas por todo Japón.</p>
+        </div>
+        <div class="card origin-card tilt-r">
+          <h3>Singapur, Casual Poet Library</h3>
+          <p>Rebecca Toh abrió 180 estantes en 42 metros cuadrados. La respuesta de la comunidad fue inmediata, y doscientas personas se ofrecieron como bibliotecarias voluntarias por decisión propia.</p>
+        </div>
+      </div>
+      <p class="origin-close">Entre todos se reparten los costos, y así el espacio se sostiene desde adentro. Eso es lo que estamos por construir acá.</p>
     </div>
   </section>
 
   <!-- ===== MIEDOS ===== -->
-  <section class="fears">
+  <section class="fears" id="miedos">
     <div class="wrap">
       <span class="eyebrow-line">El estante sin nombre</span>
-      <h2>El estante de los miedos</h2>
-      <p class="lede">Uno de los 150 estantes recibirá en lugar de mostrar. Quien quiera dejar alguno de sus miedos podrá completar una planilla con la ayuda y guía del encargado, tras la definición clara de lo que se pretende dejar y el consentimiento firmado quedará archivado. Entregar tus miedos no cuesta dinero, sólo valor. La planilla que se completa es la constancia de haber decidido soltarlo.</p>
+      <h2>El Estante de los Miedos</h2>
+      <p class="lede">Uno de los 150 estantes no muestra: recibe. Podés dejar un miedo, completar una planilla breve con quien te acompaña y llevarte un talón como constancia. El original queda archivado en gavetas ordenadas por fecha, con acceso restringido. No cuesta dinero. Solo la decisión de soltarlo.</p>
     </div>
   </section>
 
@@ -649,12 +730,12 @@
         <div class="team-card">
           <h3><a href="https://www.linkedin.com/in/siriauseche/">Siria Useche</a></h3>
           <span class="team-role">Museografía y coordinación</span>
-          <p>Arquitecta con maestría en diseño urbano. Diseña el ambiente y el amoblado del espacio, define el lugar que ocupa cada estante dentro del recorrido, y asume la coordinación diaria: eventos, comunidad, entrenamiento de voluntarios y el cuidado del estante de los miedos.</p>
+          <p>Arquitecta con maestría en diseño urbano. Diseña el ambiente y el amoblado del espacio, define el lugar de cada estante dentro del recorrido, y asume la coordinación diaria: eventos, comunidad, entrenamiento de voluntarios y el cuidado del Estante de los Miedos.</p>
         </div>
         <div class="team-card">
           <h3><a href="https://asosab.github.io/cv/">Alejandro Sosa</a></h3>
           <span class="team-role">Creador y gestión cultural</span>
-          <p>Creador de Galería Íntima e implementador de sus espacios fijos, entre ellos el estante de los miedos. Constructor multidisciplinario con recorrido en ingeniería de software, transformación digital y producción de medios, hoy vuelca ese oficio en la gestión cultural del proyecto: conecta aliados, acompaña a los primeros dueños de estante y sostiene el puente digital que lleva la memoria de la galería más allá de las cuatro paredes.</p>
+          <p>Creador de Galería Íntima e implementador de sus espacios fijos, entre ellos el Estante de los Miedos. Constructor multidisciplinario con recorrido en ingeniería de software, transformación digital y producción de medios; hoy vuelca ese oficio en la gestión cultural del proyecto: conecta aliados, acompaña a los primeros dueños de estante y sostiene el puente digital de la memoria de la galería.</p>
         </div>
       </div>
     </div>
@@ -664,14 +745,18 @@
   <section class="on-ink-soft" id="sumate">
     <div class="wrap">
       <span class="eyebrow-line">Sumate</span>
-      <h2>Elegí tu manera de estar.</h2>
+      <h2>Reservá tu estante.</h2>
       <div class="form-wrap">
         <div class="form-side">
-          <p>Si llegaste hasta acá sin que te hayamos escrito antes, este espacio es para vos. No hace falta llegar ya convencido de todo: elegí el nivel de compromiso que tenga sentido hoy, y sumate desde ahí.</p>
-          <p>Tener un estante te da un lugar físico y simbólico en el centro de la ciudad, con tu nombre (o el de tu institución) y tu mirada presentes, y te vuelve copropietario: entre los primeros en enterarse de cada actividad y con prioridad en charlas y talleres, en un espacio con aforo de 40 personas. Es un privilegio permanente, abierto siempre, sin exigencia de por medio.</p>
-          <p>Si todavía no es el momento de tener estante, podés donar tu tiempo como voluntario: atender a quienes visitan, dar mantenimiento al espacio y ayudar a que la galería funcione día a día. A cambio tenés la suscripción sin costo, con derecho a llevarte libros a casa igual que un dueño de estante. También podés sumarte como suscriptor, llevándote libros a casa, o simplemente decir que deseás estar informado cuando el local abra. Cualquiera de estas opciones suma: la comunidad se construye antes de que existan las llaves, y necesitamos que los 148 estantes tengan dueño antes de firmar el contrato del local.</p>
+          <p>Si llegaste hasta acá, este espacio es para vos. Elegí el nivel de compromiso que tenga sentido hoy y sumate desde ahí.</p>
+          <p>Como dueño de estante obtenés un lugar físico y simbólico en el centro de la ciudad, con tu nombre (o el de tu institución) y tu mirada presentes. Sos copropietario: entre los primeros en enterarte de cada actividad y con prioridad en charlas y talleres (aforo de 40 personas).</p>
+          <p>Si todavía no es el momento del estante, podés donar tu tiempo como voluntario (la suscripción va incluida), sumarte como suscriptor, o simplemente pedir que te avisemos cuando el local abra. Cualquiera de estas opciones suma: la comunidad se construye antes de que existan las llaves.</p>
+          <p class="form-urgency" id="form-urgency"></p>
         </div>
         <form id="shelf-form">
+          <div class="form-value-box">
+            <strong>Dueño de estante (USD 108/año):</strong> estante exclusivo 12 meses, nombre visible, suscripción de lector incluida, prioridad en eventos y derecho a renovar.
+          </div>
           <div>
             <label for="nombre">Nombre (persona o institución)</label>
             <input type="text" id="nombre" name="nombre" placeholder="Como va a figurar en el estante" required>
@@ -693,7 +778,7 @@
             <label for="mensaje">Contanos algo (opcional)</label>
             <textarea id="mensaje" name="mensaje" placeholder="Qué pensás poner en tu estante, qué te gustaría leer, o cualquier pregunta..."></textarea>
           </div>
-          <button type="submit" class="btn">Sumarme</button>
+          <button type="submit" class="btn">Reservar mi estante</button>
           <p class="form-hint">Al enviar se abre WhatsApp con estos datos ya escritos, listos para mandarnos.</p>
         </form>
       </div>
@@ -717,17 +802,26 @@
   }, { passive: true });
 
   // ---- Board ----
-  // Edit CONFIRMED_SHELVES as real people confirm their shelf (starts at 2:
-  // the Estante de los Miedos and the shelf reserved for donation are already spoken for).
+  // Edit CONFIRMED_SHELVES as real people confirm their shelf.
+  // 2 are already spoken for: Estante de los Miedos + shelf reserved for donation/exchange.
+  // The 148 paying shelves are what close the deal for the local.
   const CONFIRMED_SHELVES = 2;
   const GOAL_SHELVES = 150;
+  const PAYING_GOAL = 148;
 
   const statusEl = document.getElementById('board-status');
   const captionEl = document.getElementById('grid-caption');
   const gridEl = document.getElementById('shelf-grid');
+  const urgencyEl = document.getElementById('form-urgency');
 
-  statusEl.textContent = `${CONFIRMED_SHELVES} de ${GOAL_SHELVES} estantes confirmados; quedan ${GOAL_SHELVES - CONFIRMED_SHELVES} para abrir el local.`;
-  captionEl.textContent = `${GOAL_SHELVES} casillas, una por cada estante de Galería Íntima. Dos ya están definidas: el Estante de los Miedos y el estante que se dona. Las otras 148 se completan con quienes se suman.`;
+  const remainingPaying = Math.max(0, PAYING_GOAL - Math.max(0, CONFIRMED_SHELVES - 2));
+  statusEl.textContent = `${CONFIRMED_SHELVES} de ${GOAL_SHELVES} estantes confirmados. Faltan ${remainingPaying} dueños de estante para firmar el local.`;
+  captionEl.textContent = `150 casillas, una por cada estante. Dos ya están definidas: el Estante de los Miedos y el de intercambio/donación. Las otras 148 se completan con quienes se suman.`;
+  if (urgencyEl) {
+    urgencyEl.textContent = remainingPaying > 0
+      ? `Quedan ${remainingPaying} estantes de cuota por cubrir antes de firmar el local.`
+      : `La comunidad de 148 dueños está completa.`;
+  }
 
   for (let i = 0; i < GOAL_SHELVES; i++) {
     const cell = document.createElement('div');
