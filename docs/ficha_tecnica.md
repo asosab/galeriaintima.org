@@ -11,7 +11,7 @@ Se inspira en dos modelos con trayectoria: Minna no Toshokan Sankaku (Japón) y 
 ### Para dueños de estante
 
 - **Cuota:** USD 9 al mes, en un solo pago anual adelantado de USD 108.
-- **Podés tener más de un estante**, siempre a nombre propio, incluso cuando representa a una empresa o institución. Sumar otro estante implica el compromiso de no dejarlo vacío y de darle un sentido propio dentro de tu colección, por ejemplo uno dedicado a literatura fantástica y otro a libros de arquitectura.
+- **Podés tener más de un estante.** Puede ir a nombre de una persona (nombre y apellido) o de una institución pública o privada. Sumar otro estante implica el compromiso de no dejarlo vacío y de darle un sentido propio dentro de tu colección, por ejemplo uno dedicado a literatura fantástica y otro a libros de arquitectura.
 - **Libertad de contenido:** cada dueño decide qué colocar y puede cambiarlo cuando quiera.
 - **Renovación:** cada 12 meses, con una semana de aviso; quien no renueva libera el lugar a la lista de espera.
 - La suscripción de lector para llevarse libros a casa viene incluida sin costo extra.
