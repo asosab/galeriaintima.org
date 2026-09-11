@@ -50,7 +50,9 @@ Extraída y ampliada a partir de `Galeria_Intima.md`, considerando el perfil del
 | 35 | Embajador/a de Brasil | Diplomático | Media | Por contactar | |
 | 36 | Embajador/a de Argentina | Diplomático | Media | Por contactar | |
 | 37 | Agregado/a cultural de Estados Unidos | Diplomático | Media | Por contactar | |
-
+| 38 | Marcelo Arzabe | Broker inmobiliario | Media | Por contactar | Broker de C21 Nexo |
+| 39 | Angélica Sosa | Política / gestión pública | Media | Por contactar | Ex alcaldesa interina de Santa Cruz |
+| 40 | Paola Ríos Ahenke | Gestora cultural | Alta | Por contactar | Gestora Cultural CFCE – SCZ – AECID |
 ---
 
 ## Instrucciones de uso
@@ -64,4 +66,4 @@ Extraída y ampliada a partir de `Galeria_Intima.md`, considerando el perfil del
 
 ---
 
-*Documento vivo. Lista unificada el 11 de septiembre de 2026: nombres reales primero (extraídos del documento maestro + ampliación con Belén Bowles, humoristas, CEOs y líderes empresariales de Santa Cruz).*
+*Documento vivo. Lista unificada el 11 de septiembre de 2026: nombres reales primero (extraídos del documento maestro + ampliación con Belén Bowles, humoristas, CEOs, líderes empresariales y gestores culturales de Santa Cruz). Última ampliación: Marcelo Arzabe, Angélica Sosa, Paola Ríos Ahenke.*
