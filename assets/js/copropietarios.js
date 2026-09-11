@@ -16,7 +16,7 @@
 const COPROPIETARIOS = [
   "Reservado para donación",
   "Estante de los Miedos",
-  //"Alejandro Sosa",
+  "Alejandro Sosa",
   // "Siria Useche",
   // "Fundación X",
 ];
