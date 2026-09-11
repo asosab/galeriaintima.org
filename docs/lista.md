@@ -53,6 +53,7 @@ Extraída y ampliada a partir de `Galeria_Intima.md`, considerando el perfil del
 | 38 | Agregado/a cultural de Estados Unidos | Diplomático | Media | Por contactar | |
 | 39 | Marcelo Arzabe | Broker inmobiliario | Media | Por contactar | Broker de C21 Nexo |
 | 40 | Angélica Sosa | Política / gestión pública | Media | Por contactar | Ex alcaldesa interina de Santa Cruz |
+| 41 | Alcides Parejas Moreno | Historiador / investigador / docente | Media | Por contactar | Posible donación de un estante |
 
 ---
 
