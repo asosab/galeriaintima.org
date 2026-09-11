@@ -16,9 +16,7 @@
 const COPROPIETARIOS = [
   "Reservado para donación",
   "Estante de los Miedos",
-  "Alejandro Sosa"
-  // Añadir aquí los siguientes nombres en el mismo orden del tablero.
-  // Ejemplo:
+  //"Alejandro Sosa",
   // "Siria Useche",
   // "Fundación X",
 ];

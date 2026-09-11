@@ -807,7 +807,20 @@
   </div>
 </footer>
 
-<script src="assets/js/copropietarios.js?v=1"></script>
+<script>
+  // Por defecto se cache-bustea con timestamp (ms) para que al editar
+  // solo copropietarios.js el cliente siempre reciba la versión nueva.
+  // Para forzar caché estable (p. ej. en producción):
+  //   <script>window.noCachearCoprop = true;</script>
+  // justo antes de este bloque.
+  (function () {
+    var noCache = (typeof window.noCachearCoprop !== 'undefined')
+      ? !!window.noCachearCoprop
+      : false;
+    var v = noCache ? '1' : Date.now();
+    document.write('<script src="assets/js/copropietarios.js?v=' + v + '"><\/script>');
+  })();
+</script>
 <script>
   // Sticky header shadow on scroll
   const header = document.getElementById('site-header');
@@ -865,7 +878,7 @@
     'Suscriptor, USD 10/año (provisional)':
       '<strong>Suscriptor (USD 10/año, provisional):</strong> llevás libros a casa hasta dos semanas por vez. Leer en la galería siempre es gratis.',
     'Deseo estar informado, sin costo':
-      '<strong>Solo información:</strong> Te mantendremos informado de todas las noticias y eventos. Sin compromiso ni pago.'
+      '<strong>Solo información:</strong> te avisamos cuando abra el local y cuando haya novedades. Sin compromiso ni pago.'
   };
 
   const valueBox = document.querySelector('.form-value-box');
