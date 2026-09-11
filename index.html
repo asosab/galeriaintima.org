@@ -856,6 +856,32 @@
     gridEl.appendChild(cell);
   }
 
+  // ---- Form: actualizar texto de .form-value-box según plan seleccionado ----
+  const planCopy = {
+    'Dueño de estante, USD 9/mes (pago único anual, USD 108)':
+      '<strong>Dueño de estante (USD 108/año):</strong> estante exclusivo 12 meses, nombre visible, suscripción de lector incluida, prioridad en eventos y derecho a renovar.',
+    'Voluntario, dono mi tiempo para atender visitantes y mantenimiento':
+      '<strong>Voluntario:</strong> donás turnos para abrir, cuidar y cerrar el espacio. La suscripción de lector va incluida. Sin cuota de estante.',
+    'Suscriptor, USD 10/año (provisional)':
+      '<strong>Suscriptor (USD 10/año, provisional):</strong> llevás libros a casa hasta dos semanas por vez. Leer en la galería siempre es gratis.',
+    'Deseo estar informado, sin costo':
+      '<strong>Solo información:</strong> Te mantendremos informado de todas las noticias y eventos. Sin compromiso ni pago.'
+  };
+
+  const valueBox = document.querySelector('.form-value-box');
+  const planRadios = document.querySelectorAll('input[name="plan"]');
+
+  function updatePlanValueBox() {
+    const checked = document.querySelector('input[name="plan"]:checked');
+    if (!valueBox || !checked) return;
+    valueBox.innerHTML = planCopy[checked.value] || planCopy[Object.keys(planCopy)[0]];
+  }
+
+  planRadios.forEach(radio => {
+    radio.addEventListener('change', updatePlanValueBox);
+  });
+  updatePlanValueBox(); // estado inicial (Dueño de estante)
+
   // ---- Sign-up form -> WhatsApp ----
   document.getElementById('shelf-form').addEventListener('submit', function (e) {
     e.preventDefault();
