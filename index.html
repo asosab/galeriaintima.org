@@ -264,11 +264,24 @@
     opacity: 0;
     transform: translateY(4px);
     animation: rise .4s ease forwards;
+    position: relative;
+    cursor: default;
   }
-  .cell.filled{ background: var(--stamp); border-color: var(--stamp); }
+  .cell.filled{
+    background: var(--stamp);
+    border-color: var(--stamp);
+    cursor: help;
+  }
+  /* Tooltip nativo mejorado vía title; refuerzo visual al hover */
+  .cell.filled:hover{
+    filter: brightness(1.12);
+    transform: scale(1.08);
+    z-index: 2;
+  }
   @keyframes rise{ to{ opacity: 1; transform: translateY(0); } }
   @media (prefers-reduced-motion: reduce){
     .cell{ animation: none; opacity: 1; transform: none; }
+    .cell.filled:hover{ transform: none; }
   }
   .grid-caption{
     margin-top: 1rem;
@@ -794,6 +807,7 @@
   </div>
 </footer>
 
+<script src="assets/js/copropietarios.js?v=1"></script>
 <script>
   // Sticky header shadow on scroll
   const header = document.getElementById('site-header');
@@ -802,12 +816,17 @@
   }, { passive: true });
 
   // ---- Board ----
-  // Edit CONFIRMED_SHELVES as real people confirm their shelf.
-  // 2 are already spoken for: Estante de los Miedos + shelf reserved for donation/exchange.
-  // The 148 paying shelves are what close the deal for the local.
-  const CONFIRMED_SHELVES = 2;
+  // Fuente de verdad: COPROPIETARIOS (copropietarios.js).
+  // Cada entrada con nombre marca una celda ocupada y muestra el nombre al hover.
+  // Paso intermedio antes de conectar con API + base de datos.
   const GOAL_SHELVES = 150;
   const PAYING_GOAL = 148;
+
+  // Asegura array y normaliza: solo cadenas no vacías cuentan como ocupados.
+  const owners = (typeof COPROPIETARIOS !== 'undefined' && Array.isArray(COPROPIETARIOS))
+    ? COPROPIETARIOS
+    : [];
+  const CONFIRMED_SHELVES = owners.filter(n => typeof n === 'string' && n.trim().length > 0).length;
 
   const statusEl = document.getElementById('board-status');
   const captionEl = document.getElementById('grid-caption');
@@ -816,7 +835,7 @@
 
   const remainingPaying = Math.max(0, PAYING_GOAL - Math.max(0, CONFIRMED_SHELVES - 2));
   statusEl.textContent = `${CONFIRMED_SHELVES} de ${GOAL_SHELVES} estantes confirmados. Faltan ${remainingPaying} dueños de estante para firmar el local.`;
-  captionEl.textContent = `150 casillas, una por cada estante. Dos ya están definidas: el Estante de los Miedos y el de intercambio/donación. Las otras 148 se completan con quienes se suman.`;
+  captionEl.textContent = `150 casillas, una por cada estante. Dos ya están definidas: el Estante de los Miedos y el de intercambio/donación. Las otras 148 se completan con quienes se suman. Pasá el cursor sobre una casilla ocupada para ver el nombre.`;
   if (urgencyEl) {
     urgencyEl.textContent = remainingPaying > 0
       ? `Quedan ${remainingPaying} estantes de cuota por cubrir antes de firmar el local.`
@@ -825,8 +844,15 @@
 
   for (let i = 0; i < GOAL_SHELVES; i++) {
     const cell = document.createElement('div');
-    cell.className = 'cell' + (i < CONFIRMED_SHELVES ? ' filled' : '');
+    const name = (owners[i] && String(owners[i]).trim()) || '';
+    const isFilled = name.length > 0;
+    cell.className = 'cell' + (isFilled ? ' filled' : '');
     cell.style.animationDelay = (i * 12) + 'ms';
+    if (isFilled) {
+      cell.title = name;                 // tooltip nativo al hover
+      cell.setAttribute('aria-label', name);
+      cell.dataset.owner = name;         // útil si más adelante se quiere tooltip custom
+    }
     gridEl.appendChild(cell);
   }
 
