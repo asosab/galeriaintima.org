@@ -47,7 +47,7 @@ Los costos se reparten en una comunidad. Así el espacio se sostiene desde adent
 | **Propiedad del estante** | Cada estante tiene un dueño real, con nombre y apellido. |
 | **Pago anticipado** | El alquiler del local se cubre antes de firmar el contrato del espacio. |
 | **Comunidad antes que público** | La comunidad llega antes que las llaves del local. |
-| **Gestión mixta** | Siria Useche como coordinadora (USD 370, incluye community management) + Alejandro Sosa en la capa digital + turnos de voluntarios. |
+| **Gestión mixta** | Alejandro Sosa como coordinador (USD 370, trabajos administrativos, organizacionales, entrenamientos, community management y capa digital) + turnos de voluntarios. |
 | **Autorrepresentación** | El estante es un espacio de expresión personal (notas, objetos, fotos, mensajes y libros). |
 | **Presencia humana** | Cada estante lleva nombre y apellido, siempre a título personal, incluso cuando quien lo tiene dirige una institución o empresa. |
 | **Préstamo con suscripción** | Leer y consultar en sala es libre y gratuito para cualquier persona. Llevarse un libro a casa requiere una suscripción anual de lector, con un préstamo máximo de dos semanas. |
@@ -79,7 +79,7 @@ Los costos se reparten en una comunidad. Así el espacio se sostiene desde adent
 
 **4.4. La operación diaria**
 - Horario propuesto: 6 días a la semana (ejemplo: martes a domingo, 10 a 20 h).
-- La coordinadora y los turnos de voluntarios son quienes abren, cuidan y cierran el espacio cada día; esa responsabilidad no recae sobre los dueños de estante.
+- El coordinador y los turnos de voluntarios son quienes abren, cuidan y cierran el espacio cada día; esa responsabilidad no recae sobre los dueños de estante.
 - Los dueños de estante pueden sumarse cuando quieran, sin obligación: presentar su propio estante, ayudar a un visitante, participar de la vida del lugar.
 - Las personas pueden sentarse, leer, conversar, intercambiar.
 - El espacio funciona como punto de encuentro más que como punto de venta.
@@ -119,11 +119,11 @@ Los costos se reparten en una comunidad. Así el espacio se sostiene desde adent
 #### 6.2. Tamaño de estante de referencia
 
 - **35 cm de alto × 50 cm de ancho × 35 cm de profundidad** (tamaño definido para Galería Íntima, distinto del módulo de referencia de Casual Poet Library citado en el origen del modelo).
-- Con este tamaño, y un retiro de 25 cm desde el piso hasta la base del primer nivel, hay margen para 6 niveles por columna sin que la base del estante más alto supere los 2,30 m de altura (el techo real del local está a más de 3 m). El detalle final de columnas y niveles por pared se cierra con la arquitecta.
+- Con este tamaño, y un retiro de 25 cm desde el piso hasta la base del primer nivel, hay margen para 6 niveles por columna sin que la base del estante más alto supere los 2,30 m de altura (el techo real del local está a más de 3 m). El detalle final de columnas y niveles por pared se cierra con la subcontratación del diseño arquitectónico.
 
 #### 6.3. Cantidad de estantes
 
-El diseño final del espacio, a cargo de Siria Useche, contempla **150 estantes** distribuidos por distintas superficies de la galería (no limitados a dos paredes laterales, que era el cálculo preliminar más simple).
+El diseño final del espacio, a cargo de la subcontratación del diseño arquitectónico, contempla **150 estantes** distribuidos por distintas superficies de la galería (no limitados a dos paredes laterales, que era el cálculo preliminar más simple).
 
 Esta cantidad equilibra:
 - Una comunidad más amplia de dueños, lo que además baja el punto de equilibrio relativo (ver sección 7).
@@ -175,13 +175,13 @@ Esta configuración aprovecha bien los 5 m de frente y los 8 m de profundidad, r
 | Botellón de agua (dispensador Villa Santa, USD 1,5/semana × 52 semanas ÷ 12) | 6,50 |
 | **Subtotal servicios + operativos** | **348,75** |
 | Margen de variabilidad (10 %)     | 34,88       |
-| **Sueldo de la coordinadora**     | **370**     |
+| **Sueldo del coordinador**        | **370**     |
 | **Total a cubrir**                | **753,63**  |
 
 **Apoyo al Estante de los Miedos:**
 Una o dos personas pueden apoyar este estante con una cuota de **USD 15 mensuales** cada una. Este apoyo existe como concepto, pero **no se cuenta en el cálculo del peor escenario** que sigue en esta sección (ver 7.6).
 
-Todo el superávit después de cubrir costos + sueldo + margen va a la **cuenta del espacio** (eventos, charlas, presentaciones, talleres, pagos especiales, mejoras, fondo de reserva). Este dinero se administra de forma transparente: la coordinadora tiene la última palabra sobre su uso, y rinde cuentas abiertamente a la comunidad de copropietarios de estante, que tiene derecho a saber cómo se invierte.
+Todo el superávit después de cubrir costos + sueldo + margen va a la **cuenta del espacio** (eventos, charlas, presentaciones, talleres, pagos especiales, mejoras, fondo de reserva). Este dinero se administra de forma transparente: el coordinador tiene la última palabra sobre su uso, y rinde cuentas abiertamente a la comunidad de copropietarios de estante, que tiene derecho a saber cómo se invierte.
 
 #### 7.1. Cuota mínima de referencia (148 estantes pagando)
 
@@ -206,19 +206,16 @@ Simplificar a un solo precio facilita la administración (una sola fecha de reno
 
 #### 7.3. Quiénes llevan el proyecto
 
-Galería Íntima es impulsada por la pareja de esposos:
-
-**Siria Useche**
-Arquitecta con maestría en diseño urbano.
-Crea el ambiente y el amoblado del espacio.
-Asume la responsabilidad de coordinadora (sueldo USD 370).
-Se encarga de la operación diaria, el community management, los eventos, el entrenamiento de voluntarios y el cuidado del Estante de los Miedos.
+Galería Íntima es impulsada por:
 
 **Alejandro Sosa**
 Fotógrafo y consultor tecnológico.
 Desarrolla la idea, genera los contactos y construye la arquitectura entre el mundo real y el digital.
+Asume la responsabilidad de coordinador (sueldo USD 370) por los trabajos administrativos, organizacionales, entrenamientos, community management, operación diaria, eventos y cuidado del Estante de los Miedos.
 Ya adquirió el dominio **galeriaintima.org**. Próximamente se publicará una landing page que servirá como primer punto de contacto digital del proyecto.
 Crea el sitio web, los sistemas de registro histórico de todo y todos los que pasan por la galería, y el tour virtual que hace llegar el espacio físico más allá de la estructura tangible.
+
+El desarrollo de la arquitectura y amoblado del local se resuelve por **subcontratación** (sin nombre y apellido asociado al proyecto).
 
 #### 7.4. Vida cultural del espacio
 
@@ -247,11 +244,11 @@ El estante cuenta con gavetas que archivan los miedos.
 Dejar un miedo no tiene costo.
 
 **Organización del archivo:**
-Las gavetas se ordenan por fecha de ingreso (mes y año), no por categoría o tema. Un archivo por categoría convertiría la colección en un catálogo de miedos humanos y podría sentirse expuesto. Las gavetas permanecen cerradas, con acceso restringido a la coordinadora y a los voluntarios entrenados; nunca abiertas al público.
+Las gavetas se ordenan por fecha de ingreso (mes y año), no por categoría o tema. Un archivo por categoría convertiría la colección en un catálogo de miedos humanos y podría sentirse expuesto. Las gavetas permanecen cerradas, con acceso restringido al coordinador y a los voluntarios entrenados; nunca abiertas al público.
 
 Este estante puede ser apoyado por una o dos personas con una cuota de **USD 15 mensuales** cada una.
 
-La coordinadora forma a los voluntarios en el uso de la planilla y en el cuidado de este estante.
+El coordinador forma a los voluntarios en el uso de la planilla y en el cuidado de este estante.
 
 #### 7.6. Inversión inicial, operación del año 1 y meta de preventa (peor escenario)
 
@@ -262,7 +259,7 @@ De los 150 estantes físicos, **2 se reservan para intercambio o donación** (po
 Hay un punto importante que corrige el cálculo anterior: como el pago de USD 108 por estante cubre **un año completo de uso** (no es capital libre), ese dinero recaudado tiene que alcanzar para dos cosas a la vez, no solo una:
 
 1. La inversión inicial (carpintería, mobiliario, equipamiento, puesta en marcha).
-2. Los costos operativos de los 12 meses de funcionamiento que ese mismo pago ya está comprando (alquiler, servicios, sueldo de la coordinadora, agua embotellada, etc.), incluyendo el año completo de alquiler, no solo unos meses.
+2. Los costos operativos de los 12 meses de funcionamiento que ese mismo pago ya está comprando (alquiler, servicios, sueldo del coordinador, agua embotellada, etc.), incluyendo el año completo de alquiler, no solo unos meses.
 
 **Necesidad total de caja para el año 1:**
 
@@ -291,7 +288,7 @@ Hay un punto importante que corrige el cálculo anterior: como el pago de USD 10
 
 Vale aclarar que este hueco es específico del año 1 (el momento en que hay que pagar la inversión inicial *y* empezar a operar al mismo tiempo). A partir del año 2, sin un CAPEX grande nuevo, el mismo ingreso de cuotas ya alcanza cómodamente para cubrir la operación con un superávit amplio (ver 7.2 y la Proyección 24 meses del modelo financiero adjunto), salvo el efecto de la inflación local (ver 7.9).
 
-**Estimación de inversión inicial (CAPEX)** (a afinar con la arquitecta y el carpintero):
+**Estimación de inversión inicial (CAPEX)** (a afinar con la subcontratación del diseño arquitectónico y el carpintero):
 
 | Concepto                              | Estimación (USD) |
 |---------------------------------------|-------------------|
@@ -337,7 +334,7 @@ Este ingreso es complementario: no se cuenta para el punto de equilibrio operati
 
 #### 7.9. Riesgo cambiario e inflación (Bolivia)
 
-Todo este modelo está expresado en USD, pero los costos reales del local (alquiler, electricidad, internet, sueldo de la coordinadora) probablemente se pacten en bolivianos. Eso expone al proyecto a dos riesgos relacionados: el tipo de cambio y la inflación local.
+Todo este modelo está expresado en USD, pero los costos reales del local (alquiler, electricidad, internet, sueldo del coordinador) probablemente se pacten en bolivianos. Eso expone al proyecto a dos riesgos relacionados: el tipo de cambio y la inflación local.
 
 **Contexto (septiembre de 2026, sujeto a cambios):**
 - Desde noviembre de 2011 hasta fines de 2025, el tipo de cambio oficial estuvo fijo en Bs 6,96 por dólar (venta).
@@ -359,7 +356,7 @@ Aunque este modelo está pensado en USD, el pago que hace cada dueño de estante
 
 Es decir: si la cuota se reajusta en dólares (repreciando el monto en bolivianos en cada renovación), el margen del año 2 baja pero se mantiene sólido (≈USD 503). Si en cambio se sigue cobrando el mismo número de bolivianos del año 1 sin repreciar, el golpe es doble (costos que suben, ingreso que en términos reales baja), y el margen se reduce a poco más de la mitad del original (≈USD 382).
 
-**Recomendación:** convertir a dólares cada cobro en bolivianos tan pronto como sea posible, para no quedar expuesto a un movimiento cambiario después del cobro. Y, en cada renovación anual, recalcular el monto en bolivianos a partir del objetivo en dólares (hoy USD 9/mes) al tipo de cambio vigente ese día, en lugar de repetir el mismo número de bolivianos del ciclo anterior. Esta es una decisión de gobernanza pendiente, a cargo de la coordinadora y el Directorio de la Asociación Civil (ver sección 15).
+**Recomendación:** convertir a dólares cada cobro en bolivianos tan pronto como sea posible, para no quedar expuesto a un movimiento cambiario después del cobro. Y, en cada renovación anual, recalcular el monto en bolivianos a partir del objetivo en dólares (hoy USD 9/mes) al tipo de cambio vigente ese día, en lugar de repetir el mismo número de bolivianos del ciclo anterior. Esta es una decisión de gobernanza pendiente, a cargo del coordinador y el Directorio de la Asociación Civil (ver sección 15).
 
 *Fuentes consultadas: Banco Central de Bolivia (BCB), Instituto Nacional de Estadística (INE), medios locales especializados en tipo de cambio. Cifras sujetas a actualización.*
 
@@ -368,7 +365,7 @@ Es decir: si la cuota se reajusta en dólares (repreciando el monto en boliviano
 1. **Definir el tamaño del proyecto**
    - Local: 5 × 8 m (40 m²) frente al AECID.
    - Número de estantes: **150**.
-   - Costos a cubrir: servicios + limpieza + mantenimiento web + dominio + publicidad + agua embotellada + 10 % variabilidad + sueldo de la coordinadora (USD 370) ≈ **USD 754 / mes** (menos apoyos del Estante de los Miedos).
+   - Costos a cubrir: servicios + limpieza + mantenimiento web + dominio + publicidad + agua embotellada + 10 % variabilidad + sueldo del coordinador (USD 370) ≈ **USD 754 / mes** (menos apoyos del Estante de los Miedos).
 
 2. **Definir la cuota**
    - Cuota única: **USD 9 por estante / mes**, pagada en un solo adelanto anual de USD 108.
@@ -385,14 +382,14 @@ Es decir: si la cuota se reajusta en dólares (repreciando el monto en boliviano
    - Materiales cálidos.
    - El Estante de los Miedos incluye gavetas ordenadas por fecha de ingreso. Los voluntarios se entrenan para recibir miedos con planilla de entrega.
 
-5. **Siria Useche asume la coordinación**
-   - Sueldo: USD 370.
-   - Responsable de ambiente, amoblado, ubicación estratégica de cada estante dentro del recorrido, eventos, community management, entrenamiento de voluntarios y Estante de los Miedos.
-   - Alejandro Sosa desarrolla el sitio web, el tour virtual y los sistemas de registro histórico.
+5. **Alejandro Sosa asume la coordinación**
+   - Sueldo: USD 370 (trabajos administrativos, organizacionales, entrenamientos, community management, operación diaria, eventos y Estante de los Miedos).
+   - Desarrolla además el sitio web, el tour virtual y los sistemas de registro histórico.
+   - El diseño arquitectónico y amoblado del local se resuelve por subcontratación (sin nombre y apellido asociado).
 
 6. **Sistema de turnos voluntarios**
    - Plataforma simple para inscribirse a turnos de 3 horas.
-   - Capacitación a cargo de la coordinadora.
+   - Capacitación a cargo del coordinador.
 
 7. **Reglamento interno claro y corto**
    - Qué se puede poner en el estante.
@@ -403,7 +400,7 @@ Es decir: si la cuota se reajusta en dólares (repreciando el monto en boliviano
 ### 9. Naturaleza del proyecto
 
 Galería Íntima es un espacio de personas concretas que se muestran y se encuentran a través de sus estantes.
-Se sostiene desde la comunidad de dueños, el trabajo de Siria y Alejandro y los turnos de voluntarios.
+Se sostiene desde la comunidad de dueños, el trabajo de Alejandro Sosa y los turnos de voluntarios.
 Cada estante lleva nombre y apellido.
 
 ### 10. Decisiones tomadas (antes preguntas abiertas)
@@ -428,10 +425,10 @@ Se refuerza la estrategia de la sección 13 con:
 Propuesta mínima: fecha, nombre opcional (se puede dejar en blanco o poner solo iniciales), un espacio breve para describir el miedo (puede quedar en blanco), una frase de compromiso tipo "Dejo esto acá por decisión propia", y un talón que la persona se lleva como constancia simbólica. El original va a la gaveta.
 
 **6. ¿Cómo se organiza el archivo de los miedos en las gavetas?**
-Por fecha de ingreso (mes y año), no por categoría o tema. Un archivo por categoría convertiría la colección en un catálogo de miedos humanos y podría sentirse expuesto. Las gavetas quedan cerradas, con acceso restringido a la coordinadora y los voluntarios entrenados; nunca abiertas al público.
+Por fecha de ingreso (mes y año), no por categoría o tema. Un archivo por categoría convertiría la colección en un catálogo de miedos humanos y podría sentirse expuesto. Las gavetas quedan cerradas, con acceso restringido al coordinador y los voluntarios entrenados; nunca abiertas al público.
 
-**7. ¿Cómo se formaliza el rol de Siria y el de Alejandro?**
-Con la Asociación Civil (sección 15): ambos forman parte de la Asamblea Constitutiva y del Directorio inicial. El rol de coordinadora de Siria se formaliza aparte, como contrato de servicios dentro de la Asociación (sueldo USD 370 y funciones), separando su rol de gobierno del operativo. El trabajo de Alejandro se formaliza con un acuerdo específico que deja lo desarrollado a nombre de la Asociación, manteniendo su crédito de autoría.
+**7. ¿Cómo se formaliza el rol de Alejandro Sosa?**
+Con la Asociación Civil (sección 15): forma parte de la Asamblea Constitutiva y del Directorio inicial. El rol de coordinador se formaliza aparte, como contrato de servicios dentro de la Asociación (sueldo USD 370 y funciones administrativas, organizacionales, de entrenamiento y community management), separando su rol de gobierno del operativo. El trabajo digital (sitio web, tour virtual, sistemas de registro) se formaliza con un acuerdo específico que deja lo desarrollado a nombre de la Asociación, manteniendo su crédito de autoría. El diseño arquitectónico del local se resuelve por subcontratación, sin formalización nominal en el proyecto.
 
 **8. ¿Cuál es el monto de la suscripción anual de lector para préstamo a domicilio?**
 Se fija un monto provisional de **USD 10 al año**, elegido de forma arbitraria como punto de partida (los referentes internacionales van desde cerca de USD 2 al año en Japón hasta cerca de USD 19 al año en Singapur). Es un valor a afinar con datos reales de disposición a pagar antes de la apertura. Los dueños de estante reciben esta suscripción incluida sin costo adicional, como parte del valor de su cuota.
@@ -464,7 +461,7 @@ Un estante pequeño (35 × 50 × 35 cm) que se convierte en una ventana a su cab
 Quien adquiere un estante adquiere un lugar donde mostrarse y encontrarse.
 
 El local está frente al AECID, mide 40 m², tiene baño privado y un pequeño depósito.
-Se sostiene con la cuota de 148 dueños de estante y con el trabajo de la coordinadora y los voluntarios.
+Se sostiene con la cuota de 148 dueños de estante y con el trabajo del coordinador y los voluntarios.
 
 **La cuota es de USD 9 al mes**, pagada por adelantado en un solo pago anual (USD 108).
 
@@ -522,7 +519,7 @@ Es una ventana con nombre y apellido.
 ### 13. Estrategia de arranque
 
 Ya existen cuatro activos clave:
-- Una arquitecta dispuesta a modelar y equipar el espacio.
+- Posibilidad de subcontratar el diseño arquitectónico y equipamiento del espacio.
 - Un local posible en el centro (frente al AECID).
 - Una red de personas cercanas para iniciar el boca a boca.
 - El dominio **galeriaintima.org** ya adquirido; próximamente se publicará una landing page (con tablero de avance de estantes cubiertos).
@@ -532,7 +529,7 @@ La estrategia se organiza en tres capas que avanzan en paralelo.
 #### Capa 1. Validación del espacio y diseño (semanas 1-4)
 
 1. Confirmar disponibilidad y condiciones del local (plazo, depósito, posibilidad de hacer las adaptaciones necesarias).
-2. Reunión de trabajo con la arquitecta:
+2. Reunión de trabajo con la subcontratación del diseño arquitectónico:
    - Distribución de los 150 estantes (módulos de 35 × 50 × 35 cm).
    - Zona flexible de mesas y sillas plegables.
    - Depósito y baño.
@@ -557,16 +554,16 @@ Meta de esta capa: cubrir el **100% de los 148 estantes disponibles para alquile
 
 #### Capa 3. Operación mínima para abrir
 
-1. Siria Useche asume la coordinación (USD 370, incluye community management). Alejandro Sosa desarrolla el sitio web (dominio galeriaintima.org ya adquirido), tour virtual y sistemas de registro.
+1. Alejandro Sosa asume la coordinación (USD 370: trabajos administrativos, organizacionales, entrenamientos, community management y capa digital). Desarrolla el sitio web (dominio galeriaintima.org ya adquirido), tour virtual y sistemas de registro.
 2. Armar el sistema simple de turnos de voluntarios y su entrenamiento para el Estante de los Miedos.
 3. Definir el reglamento corto del espacio (incluye: un estante por persona, renovación anual con una semana de anticipación, lista de espera, préstamo máximo de dos semanas).
-4. Montaje físico con la arquitecta y voluntarios.
+4. Montaje físico con la subcontratación del diseño arquitectónico y voluntarios.
 5. Apertura con los dueños de estante ya presentes.
 
 #### Orden recomendado de acciones inmediatas (próximos 15 días)
 
 1. Publicar la landing page en **galeriaintima.org** (con tablero de avance de estantes cubiertos).
-2. Reunión con la arquitecta y visita al local posible.
+2. Reunión con la subcontratación del diseño arquitectónico y visita al local posible.
 3. Confirmar costos exactos de adecuación y equipamiento.
 4. Elaborar la lista de las primeras 40-60 personas a contactar.
 5. Enviar las primeras 15-20 invitaciones personales.
@@ -644,7 +641,7 @@ El trámite de personería jurídica de alcance departamental se realiza ante el
 #### Pasos básicos para su creación
 1. Definir el nombre exacto (ejemplo: Asociación Civil Galería Íntima).
 2. Redactar el Acta de Fundación, el Estatuto Orgánico y el Reglamento Interno.
-3. Realizar la Asamblea Constitutiva con al menos tres personas (Siria Useche, Alejandro Sosa y al menos una persona más).
+3. Realizar la Asamblea Constitutiva con al menos tres personas (Alejandro Sosa y al menos dos personas más).
 4. Protocolizar los documentos ante Notario de Fe Pública.
 5. Solicitar el Control de Denominación y Reserva de Nombre ante el Gobierno Autónomo Departamental de Santa Cruz.
 6. Presentar la solicitud de personería jurídica con todos los requisitos exigidos por la normativa departamental.
@@ -666,4 +663,4 @@ La formalización como Asociación Civil se realiza apenas exista un núcleo est
 
 *Documento base para el desarrollo conceptual de Galería Íntima en el centro de Santa Cruz de la Sierra.*
 *Inspirado en modelos de bibliotecas comunitarias de estantes compartidos (ver punto 2, "Origen del modelo").*
-*Actualizado con: 150 estantes físicos (35 × 50 × 35 cm cada uno), de los cuales 148 se alquilan y generan cuota y 2 se reservan para intercambio o donación; cuota única USD 9/mes con pago anual adelantado (USD 108); carpintería estimada en USD 2.920 según cotización real de dos muebles libreros de 60 estantes por USD 2.336 (triangulada a 150 estantes físicos); dispensador de agua Villa Santa (USD 200, compra única) y botellón semanal (USD 1,5/semana) incorporados a la inversión inicial y a los costos fijos mensuales; cálculo de caja del año 1 en el peor escenario (sin apoyos al Estante de los Miedos ni suscripción de lectores, y con el alquiler inicial corregido para no duplicar el primer mes ya contado en los 12 meses de operación), con una brecha reducida a ≈ USD 320 tras subir la cuota de USD 7 a USD 9; sección de riesgo cambiario e inflación en Bolivia, con un supuesto de ajuste anual del 10% para costos en bolivianos; sistema de préstamo de libros con suscripción anual de lector (USD 10/año, monto provisional, excluido de los cálculos financieros) y plazo máximo de dos semanas; dominio galeriaintima.org (USD 8,18 primer año pagado; renovación USD 15/año); decisiones sobre cuota/membresía, rotación anual, un estante por persona, masa crítica, planilla y archivo de miedos, formalización de roles.*
+*Actualizado con: 150 estantes físicos (35 × 50 × 35 cm cada uno), de los cuales 148 se alquilan y generan cuota y 2 se reservan para intercambio o donación; cuota única USD 9/mes con pago anual adelantado (USD 108); carpintería estimada en USD 2.920 según cotización real de dos muebles libreros de 60 estantes por USD 2.336 (triangulada a 150 estantes físicos); dispensador de agua Villa Santa (USD 200, compra única) y botellón semanal (USD 1,5/semana) incorporados a la inversión inicial y a los costos fijos mensuales; sueldo del coordinador Alejandro Sosa en USD 370 (trabajos administrativos, organizacionales, entrenamientos, etc.); diseño arquitectónico del local por subcontratación (sin nombre y apellido); cálculo de caja del año 1 en el peor escenario con una brecha de ≈ USD 320; sección de riesgo cambiario e inflación en Bolivia, con un supuesto de ajuste anual del 10% para costos en bolivianos; sistema de préstamo de libros con suscripción anual de lector (USD 10/año, monto provisional, excluido de los cálculos financieros) y plazo máximo de dos semanas; dominio galeriaintima.org (USD 8,18 primer año pagado; renovación USD 15/año); decisiones sobre cuota/membresía, rotación anual, un estante por persona, masa crítica, planilla y archivo de miedos, formalización de roles.*

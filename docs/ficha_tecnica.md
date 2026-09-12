@@ -20,7 +20,7 @@ Se inspira en dos modelos con trayectoria: Minna no Toshokan Sankaku (Japón) y 
 
 - Donan su tiempo para atender a quienes visitan la galería y dar mantenimiento al espacio.
 - A cambio, tienen la suscripción de lector sin costo, con derecho a llevarse libros a casa igual que un dueño de estante.
-- La coordinadora se encarga de organizar los turnos y de dar el entrenamiento inicial.
+- El coordinador se encarga de organizar los turnos y de dar el entrenamiento inicial.
 
 ### Reglas de contenido
 
@@ -33,7 +33,7 @@ Se inspira en dos modelos con trayectoria: Minna no Toshokan Sankaku (Japón) y 
 
 ## Estante de los Miedos
 
-Uno de los 150 estantes está dedicado a recibir miedos. Quien desea dejar uno completa una planilla breve (fecha, nombre opcional, descripción opcional del miedo, frase de compromiso) y se lleva un talón como constancia; el original se archiva en gavetas cerradas, ordenadas por fecha de ingreso, con acceso restringido a la coordinadora y a voluntarios entrenados. Dejar un miedo no tiene costo. Es uno de los espacios fijos que Alejandro Sosa, creador de Galería Íntima, implementa dentro del proyecto.
+Uno de los 150 estantes está dedicado a recibir miedos. Quien desea dejar uno completa una planilla breve (fecha, nombre opcional, descripción opcional del miedo, frase de compromiso) y se lleva un talón como constancia; el original se archiva en gavetas cerradas, ordenadas por fecha de ingreso, con acceso restringido al coordinador y a voluntarios entrenados. Dejar un miedo no tiene costo. Es uno de los espacios fijos que Alejandro Sosa, creador de Galería Íntima, implementa dentro del proyecto.
 
 ## El local
 
@@ -48,21 +48,20 @@ Uno de los 150 estantes está dedicado a recibir miedos. Quien desea dejar uno c
 | Cuota por estante | **USD 9 / mes**, pago único adelantado de **USD 108 / año** |
 | Estantes en alquiler / reservados | 148 en alquiler + 2 reservados (de 150 físicos) |
 | Meta de preventa | 100 % de los 148 estantes, antes de firmar el contrato del local, encargar la carpintería y comprar el equipamiento |
-| Costos fijos mensuales (servicios + margen de variabilidad + sueldo de la coordinadora) | USD 753,63 |
+| Costos fijos mensuales (servicios + margen de variabilidad + sueldo del coordinador) | USD 753,63 |
 | Ingreso mensual a ocupación plena | USD 1.332 |
 | Superávit mensual a ocupación plena | ≈ USD 578,38 |
-| Inversión inicial (CAPEX: depósito, comisión, carpintería, mobiliario, sitio web, imprevistos) | ≈ USD 6.660 |
-| Necesidad total de caja, año 1 (CAPEX + 12 meses de operación) | USD 15.703,50 |
+| Inversión inicial (CAPEX: depósito, comisión, carpintería, mobiliario, sitio web, imprevistos) | ≈ USD 7.260 |
+| Necesidad total de caja, año 1 (CAPEX + 12 meses de operación) | USD 16.303,50 |
 | Ingreso del año 1 (148 estantes x USD 108) | USD 15.984,00 |
-| Superávit del año 1 | ≈ USD 280,50 |
+| Superávit / Déficit del año 1 | ≈ USD −319,50 |
 
-Con los 148 estantes cubiertos, el ingreso del año 1 alcanza para cubrir a la vez la inversión inicial y los 12 meses de operación, dejando un margen de ≈USD 280,50 (≈USD 23,4 al mes) disponible para eventos desde el arranque. De hecho, bastarían 146 de los 148 estantes disponibles para autofinanciar el año 1 completo solo con cuotas.
+Con los 148 estantes cubiertos, el ingreso del año 1 deja una brecha pequeña de ≈USD 320 en el peor escenario (sin Miedos ni suscripciones). Esa diferencia se puede cerrar con un aporte puntual, con el superávit de los primeros meses o con los ingresos complementarios una vez confirmados.
 
 ## Estructura legal y equipo
 
 - **Figura legal:** Asociación Civil sin fines de lucro, con personería jurídica de alcance departamental ante el Gobierno Autónomo Departamental de Santa Cruz.
-- **Alejandro Sosa:** creador de Galería Íntima e implementador de los espacios fijos del proyecto, como el Estante de los Miedos. Es el gestor cultural a cargo de conectar con aliados y con los primeros dueños de estante.
-- **Siria Useche:** arquitecta, coordinadora del espacio (sueldo USD 370/mes), a cargo de ambiente, amoblado, community management, eventos y voluntariado.
+- **Alejandro Sosa:** creador de Galería Íntima y coordinador del espacio (sueldo USD 370/mes por trabajos administrativos, organizacionales, entrenamientos, community management y capa digital). Implementa los espacios fijos del proyecto, como el Estante de los Miedos, y se encarga de conectar con aliados y con los primeros dueños de estante. El diseño arquitectónico del local se resuelve por subcontratación (sin nombre y apellido asociado).
 
 ## Próximo hito
 
