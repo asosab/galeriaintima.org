@@ -1,15 +1,15 @@
 {
-  "name": "GaleriaIntima",
-  "short_name": "GI",
+  "name": "Librería Cruceña",
+  "short_name": "LC",
   "icons": [
     {
-      "src": "/assets/imagen/favicon/web-app-manifest-192x192.png?v=20260912",
+      "src": "/asset/imagen/favicon/web-app-manifest-192x192.png?v=20260913",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/assets/imagen/favicon/web-app-manifest-512x512.png?v=20260912",
+      "src": "/asset/imagen/favicon/web-app-manifest-512x512.png?v=20260913",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
